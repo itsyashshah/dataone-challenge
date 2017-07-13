@@ -17,3 +17,7 @@ thePrice1 = [price[p] for p in abc]
 thePrice2 = [price[p] for p in xyz]
 print 'the price of product1', askProduct1, 'is', thePrice1
 print 'the price of product2', askProduct2, 'is', thePrice2
+for i in range(len(thePrice1)):
+    addition.append(thePrice1[i] + thePrice2[i])
+print addition
+print min(addition)
